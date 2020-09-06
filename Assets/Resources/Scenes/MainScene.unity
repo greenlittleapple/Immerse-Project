@@ -9647,7 +9647,7 @@ PrefabInstance:
     - target: {fileID: 224401778520816142, guid: 3d56870ea5ab696448e35ecae56a6c5e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224401778520816142, guid: 3d56870ea5ab696448e35ecae56a6c5e,
         type: 3}
@@ -11264,7 +11264,7 @@ PrefabInstance:
     - target: {fileID: 224401778520816142, guid: 3d56870ea5ab696448e35ecae56a6c5e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224401778520816142, guid: 3d56870ea5ab696448e35ecae56a6c5e,
         type: 3}
@@ -11375,9 +11375,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u201CI think\u2026 because\u2026\u201D\r\n\u201Cwould be good/better\u201D\r\n\u201C(why)
-    do you think\u2026\u201D \r\n\u201Ccompared to\u2026, this would\u2026\u201D\r\n\u201Cin
-    my opinion\u2026\u201D\r"
+  m_text: "\u201CIn order to...\u201D\r\n\u201CI think\u2026 because\u2026\u201D\r\n\u201Cwould
+    be good/better\u201D\r\n\u201C(why) do you think\u2026\u201D \r\n\u201Ccompared
+    to\u2026, this would\u2026\u201D\r\n\u201Cin my opinion\u2026\u201D\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5879e14bd8f57254e957d10f2b7cf7bc, type: 2}
   m_sharedMaterial: {fileID: -612789086256752108, guid: 5879e14bd8f57254e957d10f2b7cf7bc,
@@ -16392,12 +16392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c443c50ad89e874a8942343acc7d205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!135 &919132148402455404 stripped
-SphereCollider:
-  m_CorrespondingSourceObject: {fileID: 383503054167100261, guid: b47670a76499e6147859d7add0799588,
-    type: 3}
-  m_PrefabInstance: {fileID: 5930769463398182248}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1291765730805784500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16595,11 +16589,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1290653990}
     m_Modifications:
-    - target: {fileID: 3842991410217934520, guid: b47670a76499e6147859d7add0799588,
-        type: 3}
-      propertyPath: reactRange
-      value: 
-      objectReference: {fileID: 919132148402455404}
     - target: {fileID: 6180321988919096504, guid: b47670a76499e6147859d7add0799588,
         type: 3}
       propertyPath: m_LocalPosition.x

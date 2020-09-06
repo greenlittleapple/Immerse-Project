@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 3842991410217934520}
   - component: {fileID: 5930769464725574485}
   - component: {fileID: 383503054167100261}
+  - component: {fileID: 4784916090041345335}
   m_Layer: 0
   m_Name: fatcat
   m_TagString: Untagged
@@ -290,7 +291,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 5930769464725574485}
-  reactRange: {fileID: 0}
+  reactRange: {fileID: 383503054167100261}
+  animator: {fileID: 4784916090041345335}
 --- !u!82 &5930769464725574485
 AudioSource:
   m_ObjectHideFlags: 0
@@ -400,6 +402,25 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 4.69
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &4784916090041345335
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6813729315427888642}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 51fb2e777ca72554eb1dae916bb2891b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6987186382019534163
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class CatController : MonoBehaviour
     public AudioSource audioSource;
     bool canMeow, randomMeow, canReactToPlayer;
     public SphereCollider reactRange;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,7 @@ public class CatController : MonoBehaviour
             canMeow = true;
             TryMeow();
             canReactToPlayer = false;
+            animator.SetTrigger("Descend");
         }
     }
 
