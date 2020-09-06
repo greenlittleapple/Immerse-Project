@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1291765732043184282}
   - component: {fileID: 1291765732043184283}
   - component: {fileID: 1291765732043184260}
+  - component: {fileID: 1438590968599330904}
   m_Layer: 0
   m_Name: axe
   m_TagString: Untagged
@@ -184,6 +185,19 @@ MonoBehaviour:
   objectHighlighter: {fileID: 0}
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   usingState: 0
+--- !u!114 &1438590968599330904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102107659304366527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4272653fbe036bc40b3e1400c5aafe54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 0
 --- !u!1 &5796355719526249647
 GameObject:
   m_ObjectHideFlags: 0

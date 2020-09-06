@@ -168,12 +168,13 @@ GameObject:
   m_Component:
   - component: {fileID: 3962279889623241882}
   - component: {fileID: 4447032217605672539}
-  - component: {fileID: 4447032217605672538}
   - component: {fileID: 4447032217605672485}
   - component: {fileID: 4447032217605672484}
   - component: {fileID: 4447032217605672487}
   - component: {fileID: 4447032217605672486}
   - component: {fileID: 4447032217605672481}
+  - component: {fileID: 6262071987038830928}
+  - component: {fileID: 7784610140795453495}
   m_Layer: 0
   m_Name: bell
   m_TagString: Untagged
@@ -220,7 +221,7 @@ MonoBehaviour:
   validDrop: 1
   grabOverrideButton: 0
   allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 4447032217605672538}
+  grabAttachMechanicScript: {fileID: 0}
   secondaryGrabActionScript: {fileID: 4447032217605672485}
   isUsable: 0
   holdButtonToUse: 1
@@ -231,24 +232,6 @@ MonoBehaviour:
   objectHighlighter: {fileID: 0}
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   usingState: 0
---- !u!114 &4447032217605672538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4447032217605672480}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
 --- !u!114 &4447032217605672485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +327,40 @@ CapsuleCollider:
   m_Height: 0.28
   m_Direction: 1
   m_Center: {x: 0, y: -0.1, z: 0}
+--- !u!114 &6262071987038830928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4447032217605672480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d39d52c63917a4caf5b4b929f54678, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 0
+  inCatRange: 0
+  interactableObject: {fileID: 0}
+  rigidbody: {fileID: 0}
+--- !u!114 &7784610140795453495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4447032217605672480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec2ac476f2fc9a45a4e69712580a603, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 0
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
 --- !u!1 &5138937298328212034
 GameObject:
   m_ObjectHideFlags: 0

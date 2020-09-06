@@ -9338,6 +9338,7 @@ GameObject:
   - component: {fileID: 6874613858365107998}
   - component: {fileID: 6874613858365107999}
   - component: {fileID: 6874613858365107992}
+  - component: {fileID: 3162565538342402914}
   m_Layer: 0
   m_Name: cat food bowl
   m_TagString: Untagged
@@ -9697,6 +9698,19 @@ MonoBehaviour:
   objectHighlighter: {fileID: 0}
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   usingState: 0
+--- !u!114 &3162565538342402914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6027752749005488933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4272653fbe036bc40b3e1400c5aafe54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemType: 0
 --- !u!1 &6032846452322867260
 GameObject:
   m_ObjectHideFlags: 0
