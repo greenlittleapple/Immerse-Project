@@ -85,6 +85,18 @@ MonoBehaviour:
     m_Scale: 1
     m_Name: tree
     m_HashCode: 4047846
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 3
+    m_Scale: 1
+    m_Name: emojis_2
+    m_HashCode: 304735482
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 4
+    m_Scale: 1
+    m_Name: emojis_3
+    m_HashCode: 304735483
   m_SpriteGlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -132,6 +144,38 @@ MonoBehaviour:
     m_Scale: 1
     m_AtlasIndex: 0
     sprite: {fileID: -4212664233109456160, guid: 347245ba31a245f4ea0c7b5733837bb7,
+      type: 3}
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 120
+      m_Height: 120
+      m_HorizontalBearingX: -60
+      m_HorizontalBearingY: 60
+      m_HorizontalAdvance: 120
+    m_GlyphRect:
+      m_X: 240
+      m_Y: 0
+      m_Width: 120
+      m_Height: 120
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 6570990888304444855, guid: 347245ba31a245f4ea0c7b5733837bb7,
+      type: 3}
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 120
+      m_Height: 120
+      m_HorizontalBearingX: -60
+      m_HorizontalBearingY: 60
+      m_HorizontalAdvance: 120
+    m_GlyphRect:
+      m_X: 360
+      m_Y: 0
+      m_Width: 120
+      m_Height: 120
+    m_Scale: 1
+    m_AtlasIndex: 0
+    sprite: {fileID: 1902788056962746792, guid: 347245ba31a245f4ea0c7b5733837bb7,
       type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []
