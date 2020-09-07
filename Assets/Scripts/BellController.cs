@@ -7,7 +7,10 @@ public class BellController : Item
     private void Update()
     {
         if (interactableObject.IsGrabbed())
-            if (rb.velocity.magnitude >= 5)
+            if (rb.velocity.magnitude >= 8)
+            {
                 GameManager.ins.cat.ReactToItem(this);
+                sound.Play();
+            }
     }
 }

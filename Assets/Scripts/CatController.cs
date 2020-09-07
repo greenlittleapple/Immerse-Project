@@ -19,7 +19,7 @@ public class CatController : MonoBehaviour
 
     public void EnableReaction()
     {
-        // Stop random meowing and make it reactable
+        // Stop random meowing and make it reactive to items
         randomMeow = false;
         canReactToPlayer = true;
         reactRange.enabled = true;
@@ -38,6 +38,7 @@ public class CatController : MonoBehaviour
 
     public void ResetBehavior()
     {
+        animator.SetTrigger("Reset");
         canMeow = randomMeow = true;
         canReactToPlayer = false;
         reactRange.enabled = false;
